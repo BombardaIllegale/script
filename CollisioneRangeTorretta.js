@@ -16,8 +16,8 @@ function IdentifyEnemy(){
 //controllo che la vita sia = 0,in questo caso distruggo il nemico e lo rimuovo dall array
 //ricomputo il for e faccio tutto da capo 
 
-//PROVAPROVAPROVA
-//OK posso modificare ora cancellate pure i miei commenti ;)
+
+
 }
 
 function Update(){
