@@ -17,7 +17,7 @@ function IdentifyEnemy(){
 //ricomputo il for e faccio tutto da capo 
 
 //PROVAPROVAPROVA
-
+//OK posso modificare ora cancellate pure i miei commenti ;)
 }
 
 function Update(){
