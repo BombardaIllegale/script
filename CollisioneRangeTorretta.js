@@ -23,9 +23,9 @@ array_nemici.Push(collision.gameObject);
 
 
 function OnTriggerExit2D(collision : Collider2D){
-if (array_nemici.length > 0){
-array_nemici.RemoveAt(0);
-}
+if (array_nemici.length > 0){                       
+array_nemici.RemoveAt(0);       //questa condizione non va bene perchè rimuove il primo mostro che è entrato, ma non è detto
+}                               //che il primo che entri sia anche il primo che esce.
 Debug.Log("Hello");
 
 
@@ -39,8 +39,8 @@ function Update(){
 
 if (array_nemici.length > 0){
 
-  enemy = array_nemici[0];
-  
+  enemy = array_nemici[0];      //stessa cosa qui, come target prende in sequenza quelli dell'array ma deve prendere
+                                //quello che sta uscendo dal suo range
   if (enemy == null){
 
     array_nemici.RemoveAt(0);
